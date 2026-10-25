@@ -72,6 +72,22 @@ namespace LINQ
 			//foreach (var c in q8)
 			//	Console.WriteLine(c);
 
+
+
+			// [Q9] QUERY SYNTAX: group customers by Country -> { Country, Count, TotalOrderValue }
+			//Console.WriteLine("--- Q9 ---");
+			//var q9 =
+			//	from c in CustomerList
+			//	group c by c.Country into g
+			//	select new
+			//	{
+			//		Country = g.Key,
+			//		Count = g.Count(),
+			//		TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+			//	};
+			//foreach (var x in q9)
+			//	Console.WriteLine($"{x.Country} | {x.Count} | {x.TotalOrderValue:C2}");
+
 		}
 	}
 }
