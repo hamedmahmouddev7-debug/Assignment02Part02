@@ -138,6 +138,10 @@ namespace LINQ
 			//Console.WriteLine("--- Q16 ---");
 			//Console.WriteLine(ProductList.First(p => p.UnitPrice > 50));
 
+			// [Q17] First product with price > 500 (FirstOrDefault returns null instead of throwing)
+			//Console.WriteLine("--- Q17 ---");
+			//Product? q17 = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+			//Console.WriteLine(q17 is null ? "No product found" : q17.ToString());
 
 		}
 	}
