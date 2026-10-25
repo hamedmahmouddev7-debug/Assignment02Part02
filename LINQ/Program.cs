@@ -132,6 +132,13 @@ namespace LINQ
 			//Dictionary<int, Product> dict = ProductList.ToDictionary(p => p.ProductID);
 			//Console.WriteLine(dict[18]);
 
+
+
+			// [Q16] First product with price > 50 (First throws if none match)
+			//Console.WriteLine("--- Q16 ---");
+			//Console.WriteLine(ProductList.First(p => p.UnitPrice > 50));
+
+
 		}
 	}
 }
