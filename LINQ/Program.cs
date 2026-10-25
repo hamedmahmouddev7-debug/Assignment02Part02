@@ -19,6 +19,13 @@ namespace LINQ
 			//var q2 = ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize);
 			//foreach (var p in q2)
 			//	Console.WriteLine(p.ProductName);
+
+
+			// [Q3] TakeWhile price < 25 (MUST be ordered by price first)
+			//Console.WriteLine("--- Q3 ---");
+			//var q3 = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
+			//foreach (var p in q3)
+			//	Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 		}
 	}
 }
