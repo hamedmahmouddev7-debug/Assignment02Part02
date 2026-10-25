@@ -13,7 +13,12 @@ namespace LINQ
 			//foreach (var p in q1)
 			//	Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 
-
+			// [Q2] Page 2, page size 5  => Skip((page-1)*size).Take(size)
+			//Console.WriteLine("--- Q2 ---");
+			//int pageNumber = 2, pageSize = 5;
+			//var q2 = ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+			//foreach (var p in q2)
+			//	Console.WriteLine(p.ProductName);
 		}
 	}
 }
