@@ -48,6 +48,19 @@ namespace LINQ
 			//var q6 = ProductList.GroupBy(p => p.Category);
 			//foreach (var g in q6)
 			//	Console.WriteLine($"{g.Key} -> {g.Count()} products");
+
+
+
+			// [Q7] Group by Category, project only names per group
+			//Console.WriteLine("--- Q7 ---");
+			//var q7 = ProductList.GroupBy(p => p.Category)
+			//					.Select(g => new { Category = g.Key, Names = g.Select(p => p.ProductName) });
+			//foreach (var g in q7)
+			//{
+			//	Console.WriteLine(g.Category);
+			//	foreach (var n in g.Names)
+			//		Console.WriteLine($"   {n}");
+			//}
 		}
 	}
 }
