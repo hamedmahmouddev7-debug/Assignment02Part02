@@ -88,6 +88,12 @@ namespace LINQ
 			//foreach (var x in q9)
 			//	Console.WriteLine($"{x.Country} | {x.Count} | {x.TotalOrderValue:C2}");
 
+
+
+			// [Q10] Total units in stock
+			//Console.WriteLine("--- Q10 ---");
+			//Console.WriteLine($"Total units in stock: {ProductList.Sum(p => p.UnitsInStock)}");
+
 		}
 	}
 }
