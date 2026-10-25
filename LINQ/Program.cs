@@ -126,6 +126,12 @@ namespace LINQ
 			//string[] list2 = { "france", "SPAIN", "Italy" };
 			//Console.WriteLine(string.Join(", ", list1.Except(list2, StringComparer.OrdinalIgnoreCase)));   // Germany, UK
 
+
+			// [Q15] Dictionary<int, Product> keyed by ProductID, print ID = 18
+			//Console.WriteLine("--- Q15 ---");
+			//Dictionary<int, Product> dict = ProductList.ToDictionary(p => p.ProductID);
+			//Console.WriteLine(dict[18]);
+
 		}
 	}
 }
