@@ -40,6 +40,14 @@ namespace LINQ
 			//Console.WriteLine("--- Q5 ---");
 			//int[] ids = { 3, 9, 13, 18 };
 			//Console.WriteLine($"Contains 9? {ids.Contains(9)}");
+
+
+
+			// [Q6] Group by Category + count
+			//Console.WriteLine("--- Q6 ---");
+			//var q6 = ProductList.GroupBy(p => p.Category);
+			//foreach (var g in q6)
+			//	Console.WriteLine($"{g.Key} -> {g.Count()} products");
 		}
 	}
 }
