@@ -120,6 +120,12 @@ namespace LINQ
 			//Console.WriteLine(string.Join(", ", setA.Except(setB)));   // 1, 5, 7, 11
 
 
+			// [Q14] Countries in list1 but NOT in list2 (case-insensitive)
+			//Console.WriteLine("--- Q14 ---");
+			//string[] list1 = { "Germany", "France", "UK", "Spain" };
+			//string[] list2 = { "france", "SPAIN", "Italy" };
+			//Console.WriteLine(string.Join(", ", list1.Except(list2, StringComparer.OrdinalIgnoreCase)));   // Germany, UK
+
 		}
 	}
 }
