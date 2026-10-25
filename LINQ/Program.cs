@@ -102,6 +102,24 @@ namespace LINQ
 			//Console.WriteLine("--- Q11 ---");
 			//Console.WriteLine($"Cheapest: {ProductList.Min(p => p.UnitPrice)}, " +
 			//				  $"Most expensive: {ProductList.Max(p => p.UnitPrice)}");
+
+
+
+			// [Q12] Distinct categories
+			//Console.WriteLine("--- Q12 ---");
+			//var q12 = ProductList.Select(p => p.Category).Distinct();
+			//foreach (var c in q12)
+			//	Console.WriteLine(c);
+
+
+
+			// [Q13] IDs in setA but NOT in setB  (set difference)
+			//Console.WriteLine("--- Q13 ---");
+			//int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+			//int[] setB = { 3, 6, 9, 12, 15, 13 };
+			//Console.WriteLine(string.Join(", ", setA.Except(setB)));   // 1, 5, 7, 11
+
+
 		}
 	}
 }
