@@ -143,6 +143,12 @@ namespace LINQ
 			//Product? q17 = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
 			//Console.WriteLine(q17 is null ? "No product found" : q17.ToString());
 
+
+			// [Q18] Multiplication table row for 7
+			//Console.WriteLine("--- Q18 ---");
+			//foreach (var line in Enumerable.Range(1, 10).Select(i => $"7 x {i} = {7 * i}"))
+			//	Console.WriteLine(line);
+
 		}
 	}
 }
