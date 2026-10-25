@@ -36,6 +36,10 @@ namespace LINQ
 
 
 
+			// [Q5] Does ids contain 9?
+			//Console.WriteLine("--- Q5 ---");
+			//int[] ids = { 3, 9, 13, 18 };
+			//Console.WriteLine($"Contains 9? {ids.Contains(9)}");
 		}
 	}
 }
