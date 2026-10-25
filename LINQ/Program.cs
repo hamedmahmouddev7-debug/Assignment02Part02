@@ -154,6 +154,14 @@ namespace LINQ
 			//Console.WriteLine("--- Q19 ---");
 			//Console.WriteLine(string.Join(", ", Enumerable.Range(1, 30).Where(n => n % 2 == 0)));
 
+
+			// [Q20] First 3 product names + first 3 customer company names in ONE sequence
+			//Console.WriteLine("--- Q20 ---");
+			//var q20 = ProductList.Take(3).Select(p => p.ProductName)
+			//		  .Concat(CustomerList.Take(3).Select(c => c.CompanyName));
+			//foreach (var s in q20)
+			//	Console.WriteLine(s);
+
 		}
 	}
 }
