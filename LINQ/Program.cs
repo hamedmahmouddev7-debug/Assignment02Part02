@@ -61,6 +61,17 @@ namespace LINQ
 			//	foreach (var n in g.Names)
 			//		Console.WriteLine($"   {n}");
 			//}
+
+
+
+			// [Q8] Categories with MORE THAN 3 products
+			//Console.WriteLine("--- Q8 ---");
+			//var q8 = ProductList.GroupBy(p => p.Category)
+			//					.Where(g => g.Count() > 3)
+			//					.Select(g => g.Key);
+			//foreach (var c in q8)
+			//	Console.WriteLine(c);
+
 		}
 	}
 }
