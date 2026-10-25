@@ -149,6 +149,11 @@ namespace LINQ
 			//foreach (var line in Enumerable.Range(1, 10).Select(i => $"7 x {i} = {7 * i}"))
 			//	Console.WriteLine(line);
 
+
+			// [Q19] Even numbers between 1 and 30
+			//Console.WriteLine("--- Q19 ---");
+			//Console.WriteLine(string.Join(", ", Enumerable.Range(1, 30).Where(n => n % 2 == 0)));
+
 		}
 	}
 }
