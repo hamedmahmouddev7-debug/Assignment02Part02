@@ -26,6 +26,16 @@ namespace LINQ
 			//var q3 = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
 			//foreach (var p in q3)
 			//	Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+
+
+
+			// [Q4] Are ALL Seafood products in stock?
+			//Console.WriteLine("--- Q4 ---");
+			//bool q4 = ProductList.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
+			//Console.WriteLine($"All seafood in stock? {q4}");
+
+
+
 		}
 	}
 }
