@@ -94,6 +94,14 @@ namespace LINQ
 			//Console.WriteLine("--- Q10 ---");
 			//Console.WriteLine($"Total units in stock: {ProductList.Sum(p => p.UnitsInStock)}");
 
+
+
+
+
+			// [Q11] Cheapest and most expensive prices
+			//Console.WriteLine("--- Q11 ---");
+			//Console.WriteLine($"Cheapest: {ProductList.Min(p => p.UnitPrice)}, " +
+			//				  $"Most expensive: {ProductList.Max(p => p.UnitPrice)}");
 		}
 	}
 }
