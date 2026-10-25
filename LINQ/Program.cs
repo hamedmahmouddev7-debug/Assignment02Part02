@@ -162,6 +162,14 @@ namespace LINQ
 			//foreach (var s in q20)
 			//	Console.WriteLine(s);
 
+
+			// [Q21] Zip: pair product with customer by position
+			//Console.WriteLine("--- Q21 ---");
+			//var q21 = ProductList.Zip(CustomerList, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+			//foreach (var s in q21)
+			//	Console.WriteLine(s);
+
+
 		}
 	}
 }
